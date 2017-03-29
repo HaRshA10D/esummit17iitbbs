@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Competitions | ESummit'17</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet"> 
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">       
+    <link rel="shortcut icon" href="images/favicon.png">
+</head><!--/head-->
+
+<body onload="dis()">
+	<header id="header">      
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href="https://www.facebook.com/centrepreneurship" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/esummit.iitbbs/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a ><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+             </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.php">
+                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class=""><a href="index.php">Home</a></li>
+                        <li class="dropdown"><a href="#">Featured  <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="featured.php#panel">Panel discussions</a></li>
+                                <li><a href="featured.php#ted">Ted Talks</a></li>
+                                <li><a href="featured.php#drive">Investors drive</a></li>
+                                <li><a href="featured.php#start">Start-up expo</a></li>
+                                <li><a href="featured.php#star">Star-Nite</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown active"><a href="#">Events<i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="competitions.php">Competitions</a></li>
+                                <li><a href="workshops.php">Workshops</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="schedule.php">Schedule</a></li>
+                        <li class=""><a href="profiles.php">Profiles</a></li>
+                        <li class=""><a href="sponsors.php">Sponsors</a></li>
+                        <li class=""><a href="team.php">Team</a></li>
+                                           
+                    </ul>
+                </div>
+                <!--<div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+
+    <section id="action" class="responsive">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title" style="text-align:center">Workshops</h1>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    
+   
+<br/>
+    
+
+
+    <footer id="footer" >
+        <div class="container">
+            <div class="row" style="margin:auto">
+               
+            
+                <div class="col-md-12 col-sm-12">
+                    <div class="contact-form bottom">
+                        
+                        <form id="contactform" name="contact-form" method="post" action="workandcomp.php">
+                            <div class="form-group">
+                                <input type="text"  class="form-control" name="fname" placeholder="First name" required="required">
+                            </div>
+                            <div class="form-group">
+							   <input  name="lname"    class="form-control" placeholder="Last name" required="required"  type="text"> 
+                            </div>
+                            <div class="form-group">
+							   <input class="form-control" name="collegename"  placeholder="College name" required="required"  type="text">  
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" name="email" placeholder="Email address" required="required" type="email"> 
+                            </div>    
+                            <div class="form-group">
+                                <select class="form-control"  name="gender">
+								<option value="select">--Gender--</option>
+								<option value="m">Male</option>
+								<option value="f">Female</option>
+								<option value="others">Other</option>
+								</select>
+                            </div>	
+                            <div class="form-group">
+                                <select class="form-control"  name="competition">
+								<option value="select">--Workshop--</option>
+							            <option value="bizquiz">Share Market & Investment</option>
+							            <option value="productdesign">Portfolio managementn</option>
+								
+								</select>
+                            </div>  
+                            <div  class="form-group">
+							     <input class="form-control" name="phone" placeholder="phone number" required="required" type="text"> <br>
+							</div>						
+                            <div class="form-group">
+                                <input id= "submit" type="submit" name="submit" class="btn btn-submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy; ESummit 2017. All Rights Reserved.</p>
+                        <p>Designed and developed by web & design team, ESummit</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>  
+    <script>
+        function dis(){
+            document.getElementById("prblm").visibility="none";
+        }
+    </script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" />
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<html>
+<head>
+<title>E-Summit'17</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" />
+</head>
+<body background="images/bgnoise_lg.png">
+<div class="container">
+		
+            
+			<header>
+				
+            </header>       
+      <div  class="form">
+    		<form id="contactform" action="workandcomp.php" method="post"> 
+    			<p class="contact"></p> 
+    			<input id="name" name="fname" placeholder="First name" required="required" tabindex="1" type="text"> 
+    			 
+				 <p class="contact"></p> 
+    			<input id="username" name="lname" placeholder="Last name" required="required" tabindex="2" type="text"> 
+				<p class="contact"></p> 
+				
+    			<input id="username" name="collegename" placeholder="College name" required="required" tabindex="2" type="text"> 
+    			<p class="contact"></p> 
+				
+    			<input id="email" name="email" placeholder="Email address" required="required" type="email"> 
+                
+                
+    			 
+               
+               
+  
+            <select class="select-style gender" name="gender">
+            <option value="select">--Gender--</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="others">Other</option>
+            </select><br><br>
+			
+			<select class="select-style gender" name="competition">
+            <option value="select">--Workshop--</option>
+            <option value="bizquiz">Share Market & Investment</option>
+            <option value="productdesign">Portfolio managementn</option>
+			
+            
+            </select><br><br>
+            
+            <p class="contact"></p> 
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Submit!" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+
+</body>
+</html>
+-->
